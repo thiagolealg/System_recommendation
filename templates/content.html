@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Content Based{% endblock %}
+{% block content %}
+<h2>Recomendação Baseada em Conteúdo</h2>
+<form method="get">
+  <div class="mb-3">
+    <label for="song" class="form-label">Título da Música</label>
+    <input type="text" class="form-control" id="song" name="song_title" value="{{ song_title }}">
+  </div>
+  <div class="mb-3">
+    <label for="limit" class="form-label">Limite</label>
+    <input type="number" class="form-control" id="limit" name="limit" value="{{ limit }}">
+  </div>
+  <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+{% if recs %}
+<table class="table mt-4">
+  <thead><tr>
+    {% for key in recs[0].keys() %}<th>{{ key }}</th>{% endfor %}
+  </tr></thead>
+  <tbody>
+  {% for r in recs %}
+    <tr>{% for v in r.values() %}<td>{{ v }}</td>{% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endblock %}

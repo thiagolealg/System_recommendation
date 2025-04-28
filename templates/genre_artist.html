@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Genre/Artist{% endblock %}
+{% block content %}
+<h2>Recomendação por Gênero/Artista</h2>
+<form method="get">
+  <div class="mb-3">
+    <label for="genre" class="form-label">Gênero</label>
+    <input type="text" class="form-control" id="genre" name="genre" value="{{ genre }}">
+  </div>
+  <div class="mb-3">
+    <label for="artist" class="form-label">Artista</label>
+    <input type="text" class="form-control" id="artist" name="artist" value="{{ artist }}">
+  </div>
+  <div class="mb-3">
+    <label for="limit" class="form-label">Limite</label>
+    <input type="number" class="form-control" id="limit" name="limit" value="{{ limit }}">
+  </div>
+  <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+{% if recs %}
+<table class="table mt-4">
+  <thead><tr>
+    {% for key in recs[0].keys() %}<th>{{ key }}</th>{% endfor %}
+  </tr></thead>
+  <tbody>
+  {% for r in recs %}
+    <tr>{% for v in r.values() %}<td>{{ v }}</td>{% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endblock %}
