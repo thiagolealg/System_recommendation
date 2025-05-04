@@ -2,31 +2,54 @@
 {% block title %}Popular{% endblock %}
 {% block content %}
 <h2>Recomendação Popular</h2>
-<form method="get">
-  <div class="mb-3">
+
+<form method="get" class="row g-3">
+  <div class="col-md-4">
     <label for="year" class="form-label">Ano</label>
-    <input type="number" class="form-control" id="year" name="year" value="{{ year }}">
+    <input type="number" class="form-control" id="year" name="year" value="{{ year or '' }}" placeholder="Todos os anos">
   </div>
-  <div class="mb-3">
+  <div class="col-md-4">
     <label for="genre" class="form-label">Gênero</label>
-    <input type="text" class="form-control" id="genre" name="genre" value="{{ genre }}">
+    <input type="text" class="form-control" id="genre" name="genre" value="{{ genre or '' }}" placeholder="Todos os gêneros">
   </div>
-  <div class="mb-3">
+  <div class="col-md-4">
     <label for="limit" class="form-label">Limite</label>
-    <input type="number" class="form-control" id="limit" name="limit" value="{{ limit }}">
+    <input type="number" class="form-control" id="limit" name="limit" value="{{ limit }}" min="1" max="20">
   </div>
-  <button type="submit" class="btn btn-primary">Buscar</button>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Buscar</button>
+    <a href="/ui/popular" class="btn btn-outline-secondary ms-2">Limpar Filtros</a>
+  </div>
 </form>
+
 {% if recs %}
-<table class="table mt-4">
-  <thead><tr>
-    {% for key in recs[0].keys() %}<th>{{ key }}</th>{% endfor %}
-  </tr></thead>
-  <tbody>
-  {% for r in recs %}
-    <tr>{% for v in r.values() %}<td>{{ v }}</td>{% endfor %}</tr>
-  {% endfor %}
-  </tbody>
-</table>
+  <!-- Tabela de resultados -->
+  <table class="table mt-4">
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Artista</th>
+        <th>Gênero</th>
+        <th>Ano</th>
+        <th>Popularidade</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for r in recs %}
+      <tr>
+        <td>{{ r.title }}</td>
+        <td>{{ r.artist }}</td>
+        <td>{{ r.genre }}</td>
+        <td>{{ r.year }}</td>
+        <td>{{ r.Popularity }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+{% else %}
+  <!-- Mensagem quando não há resultados -->
+  <div class="alert alert-warning mt-4">
+    <p>Nenhuma música encontrada com os critérios especificados. Tente outros filtros.</p>
+  </div>
 {% endif %}
 {% endblock %}

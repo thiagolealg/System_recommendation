@@ -1,6 +1,52 @@
 {% extends "base.html" %}
 {% block title %}Início{% endblock %}
 {% block content %}
-<h1>Bem-vindo ao Music Recommender</h1>
-<p>Escolha uma das rotas de recomendação no menu.</p>
+<h1 class="text-center mb-4">Bem-vindo ao Music Recommender</h1>
+<div class="row justify-content-center text-center g-4">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Recomendação Baseada em Conteúdo</h5>
+                <p class="card-text">Encontre músicas similares com base nas características de uma música específica.</p>
+                <a href="/ui/content-based" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Recomendação por Gênero/Artista</h5>
+                <p class="card-text">Descubra músicas populares de um gênero ou artista específico.</p>
+                <a href="/ui/genre-artist" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Recomendação Colaborativa</h5>
+                <p class="card-text">Obtenha recomendações baseadas em preferências de usuários similares.</p>
+                <a href="/ui/collaborative" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Recomendação Híbrida</h5>
+                <p class="card-text">Combine métodos de conteúdo e colaboração para melhores resultados.</p>
+                <a href="/ui/hybrid" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Músicas Populares</h5>
+                <p class="card-text">Encontre as músicas mais populares por ano ou gênero.</p>
+                <a href="/ui/popular" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

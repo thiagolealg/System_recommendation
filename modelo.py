@@ -18,10 +18,10 @@ df = pd.DataFrame(data)
 # Ajustar nomes de colunas para simplificar features
 df.rename(columns={
      'the genre of the track': 'genre',
-     'Beats.Per.Minute -The tempo of the song': 'Beats.Per.Minute',
+     'Beats.Per.Minute -The tempo of the song': 'BPM',
      'Energy- The energy of a song - the higher the value, the more energtic': 'Energy',
      'Danceability - The higher the value, the easier it is to dance to this song': 'Danceability',
-     'Loudness/dB - The higher the value, the louder the song': 'Loudness/dB',
+     'Loudness/dB - The higher the value, the louder the song': 'Loudness',
      'Liveness - The higher the value, the more likely the song is a live recording': 'Liveness',
      'Valence - The higher the value, the more positive mood for the song': 'Valence',
      'Length - The duration of the song': 'Length',
@@ -31,8 +31,8 @@ df.rename(columns={
  }, inplace=True)
 
 # Pré-processamento
-features = ['Beats.Per.Minute', 'Energy', 'Danceability', 
-'Loudness/dB',
+features = ['BPM', 'Energy', 'Danceability', 
+'Loudness',
  'Liveness', 'Valence', 'Length', 'Acousticness', 
 'Speechiness', 'Popularity']
 scaler = MinMaxScaler()
@@ -94,50 +94,149 @@ async def genre_artist_recommendations(request: GenreArtistRequest):
 
 @app.get("/recommendations/collaborative/{user_id}")
 async def collaborative_recommendations(user_id: str):
-    # Simulação de filtro colaborativo
-    random.seed(user_id)
-    liked = random.sample(df["title"].tolist(), min(10, len(df)))
-    cooc = {}
-    for song in liked:
-        others = [t for t in df["title"] if t != song]
-        recs = random.sample(others, min(5, len(others)))
-        for r in recs:
-            cooc[r] = cooc.get(r, 0) + 1
+    # Filtro colaborativo usando dados de interação pré-calculados
+    import json
+    import os
+    
+    # Verificar se os arquivos de interação existem
+    if not os.path.exists('user_song_interactions.json') or not os.path.exists('song_cooccurrences.json'):
+        # Fallback para o método original se os arquivos não existirem
+        random.seed(user_id)
+        liked = random.sample(df["title"].tolist(), min(10, len(df)))
+        cooc = {}
+        for song in liked:
+            others = [t for t in df["title"] if t != song]
+            recs = random.sample(others, min(5, len(others)))
+            for r in recs:
+                cooc[r] = cooc.get(r, 0) + 1
+    else:
+        # Carregar as interações dos usuários
+        with open('user_song_interactions.json', 'r', encoding='utf-8') as f:
+            user_interactions = json.load(f)
+        
+        # Carregar as co-ocorrências entre músicas
+        with open('song_cooccurrences.json', 'r', encoding='utf-8') as f:
+            song_cooccurrences = json.load(f)
+        
+        # Se o usuário não estiver na base, criar um novo perfil
+        if user_id not in user_interactions:
+            # Escolher um usuário existente aleatoriamente como base
+            seed_user = random.choice(list(user_interactions.keys()))
+            liked = random.sample(user_interactions[seed_user], min(5, len(user_interactions[seed_user])))
+        else:
+            liked = user_interactions[user_id]
+        
+        # Calcular recomendações baseadas em co-ocorrências
+        cooc = {}
+        for song in liked:
+            if song in song_cooccurrences:
+                for related_song, count in song_cooccurrences[song].items():
+                    if related_song not in liked:  # Não recomendar músicas que o usuário já curtiu
+                        cooc[related_song] = cooc.get(related_song, 0) + count
+    
+    # Ordenar e formatar as recomendações
     sorted_cooc = sorted(cooc.items(), key=lambda x: x[1], reverse=True)
     out = []
+    
+    # Obter as 5 músicas mais recomendadas
     for title, cnt in sorted_cooc[:5]:
-        row = df[df["title"] == title].iloc[0].to_dict()
-        row["score"] = float(cnt)
-        out.append(row)
-    return {"user_id": user_id, "recommendations": out}
+        if title in df["title"].values:  # Verificar se a música existe no DataFrame
+            row = df[df["title"] == title].iloc[0].to_dict()
+            row["score"] = float(cnt)
+            out.append(row)
+    
+    # Informações sobre o usuário atual
+    user_info = {
+        "user_id": user_id,
+        "num_liked_songs": len(liked),
+        "sample_liked_songs": liked[:3] if len(liked) > 3 else liked  # Mostrar algumas músicas que o usuário gosta
+    }
+    
+    return {"user_info": user_info, "recommendations": out}
 
 @app.post("/recommendations/hybrid")
 async def hybrid_recommendations(request: HybridRequest):
     # Combinação de conteúdo e colaborativo
     content = await content_based_recommendations(request.song_title, limit=request.limit)
     collab = await collaborative_recommendations(request.user_id)
+    
+    # Obter pontuações das recomendações baseadas em conteúdo
     c_scores = {r["title"]: r["score"] for r in content["recommendations"]}
+    
+    # Obter pontuações das recomendações colaborativas
     col_scores = {r["title"]: r["score"] for r in collab["recommendations"]}
+    
+    # Normalizar pontuações para garantir uma combinação justa
+    if c_scores and max(c_scores.values()) > 0:
+        c_max = max(c_scores.values())
+        c_scores = {k: v/c_max for k, v in c_scores.items()}
+    
+    if col_scores and max(col_scores.values()) > 0:
+        col_max = max(col_scores.values())
+        col_scores = {k: v/col_max for k, v in col_scores.items()}
+    
+    # Combinar pontuações com pesos
     combined = {}
     for title in set(c_scores) | set(col_scores):
-        combined[title] = request.content_weight * c_scores.get(title, 0) + request.collab_weight * col_scores.get(title, 0)
+        content_score = request.content_weight * c_scores.get(title, 0)
+        collab_score = request.collab_weight * col_scores.get(title, 0)
+        combined[title] = content_score + collab_score
+    
+    # Obter as melhores recomendações
     best = sorted(combined.items(), key=lambda x: x[1], reverse=True)[:request.limit]
     out = []
+    
     for title, sc in best:
-        row = df[df["title"] == title].iloc[0].to_dict()
-        row["score"] = float(sc)
-        out.append(row)
-    return {"recommendations": out}
+        if title in df["title"].values:  # Verificar se a música existe no DataFrame
+            row = df[df["title"] == title].iloc[0].to_dict()
+            row["score"] = float(sc)
+            row["content_score"] = float(request.content_weight * c_scores.get(title, 0))
+            row["collab_score"] = float(request.collab_weight * col_scores.get(title, 0))
+            row["content_weight"] = float(request.content_weight)
+            row["collab_weight"] = float(request.collab_weight)
+            out.append(row)
+    
+    # Informações do usuário
+    user_info = collab.get("user_info", {"user_id": request.user_id})
+    
+    return {
+        "user_info": user_info,
+        "song_info": {"title": request.song_title},
+        "recommendations": out,
+        "weights": {
+            "content_weight": request.content_weight,
+            "collab_weight": request.collab_weight
+        }
+    }
 
 @app.get("/recommendations/popular")
-async def popular_recommendations(year: Optional[int] = None, genre: Optional[str] = None, limit: int = 5):
+async def popular_recommendations(year: Optional[str] = None, genre: Optional[str] = None, limit: int = 5):
     # Recomendação por popularidade/ano
     subset = df
-    if year is not None:
-        subset = subset[subset["year"] == year]
-    if genre is not None:
-        subset = subset[subset["genre"] == genre]
+    
+    # Tratar corretamente o ano (ignorar se for None ou string vazia)
+    if year and year.strip():
+        try:
+            year_int = int(year)
+            subset = subset[subset["year"] == year_int]
+        except (ValueError, TypeError):
+            # Se não for possível converter, ignorar o filtro de ano
+            pass
+    
+    # Tratar corretamente o gênero (ignorar se for None ou string vazia)
+    if genre and genre.strip():
+        # Verificar se o gênero existe no dataset
+        if genre in subset["genre"].values:
+            subset = subset[subset["genre"] == genre]
+    
+    # Se o subset estiver vazio após os filtros, retornar as mais populares do dataset original
+    if subset.empty:
+        subset = df
+    
+    # Obter as músicas mais populares
     top = subset.sort_values("Popularity", ascending=False).head(limit)
+    
+    # Retornar apenas as recomendações sem as informações adicionais de filtro
     return {"recommendations": top[["title","artist","genre","year","Popularity"]].to_dict("records")} 
 
 @app.get("/", response_class=HTMLResponse)
@@ -179,9 +278,24 @@ async def ui_hybrid(request: Request, song_title: str = "", user_id: str = "", c
     return templates.TemplateResponse("hybrid.html", {"request": request, "recs": recs, "song_title": song_title, "user_id": user_id, "content_weight": content_weight, "collab_weight": collab_weight, "limit": limit})
 
 @app.get("/ui/popular", response_class=HTMLResponse)
-async def ui_popular(request: Request, year: Optional[int] = None, genre: str = "", limit: int = 5):
+async def ui_popular(request: Request, year: Optional[str] = None, genre: str = "", limit: int = 5):
+    # Verificar se o formulário foi submetido verificando se há parâmetros na URL
+    form_submitted = False
+    for param in request.query_params:
+        if param in ["year", "genre", "limit"]:
+            form_submitted = True
+            break
+    
     recs = []
-    if year or genre:
-        data = await popular_recommendations(year=year, genre=genre or None, limit=limit)
+    if form_submitted:  # Só buscar recomendações se o formulário foi submetido
+        data = await popular_recommendations(year=year, genre=genre, limit=limit)
         recs = data["recommendations"]
-    return templates.TemplateResponse("popular.html", {"request": request, "recs": recs, "year": year, "genre": genre, "limit": limit})
+    
+    # Renderizar o template com o formato original
+    return templates.TemplateResponse("popular.html", {
+        "request": request, 
+        "recs": recs, 
+        "year": year, 
+        "genre": genre, 
+        "limit": limit
+    })

@@ -1,0 +1,2607 @@
+[
+  {
+    "user_id": "user_001",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 1.4762955755207934
+  },
+  {
+    "user_id": "user_002",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.3804067850610031
+  },
+  {
+    "user_id": "user_003",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 0.5860340451189436
+  },
+  {
+    "user_id": "user_004",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.5190129777553557
+  },
+  {
+    "user_id": "user_005",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 0.7295002229851512
+  },
+  {
+    "user_id": "user_006",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.9116753909224226
+  },
+  {
+    "user_id": "user_007",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 0.7658026356665601
+  },
+  {
+    "user_id": "user_008",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.3877248646785785
+  },
+  {
+    "user_id": "user_009",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.1763439453656552
+  },
+  {
+    "user_id": "user_010",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.5358794666345784
+  },
+  {
+    "user_id": "user_011",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.2376521022033287
+  },
+  {
+    "user_id": "user_012",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.2886522413499577
+  },
+  {
+    "user_id": "user_013",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 0.6750887503911989
+  },
+  {
+    "user_id": "user_014",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.6586490128371819
+  },
+  {
+    "user_id": "user_015",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.0800701309140182
+  },
+  {
+    "user_id": "user_016",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.0240929753601287
+  },
+  {
+    "user_id": "user_017",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.9149766632521851
+  },
+  {
+    "user_id": "user_018",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.9045473916562059
+  },
+  {
+    "user_id": "user_019",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 0.7509509792044908
+  },
+  {
+    "user_id": "user_020",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.471849747995308
+  },
+  {
+    "user_id": "user_021",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.6154185820577995
+  },
+  {
+    "user_id": "user_022",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 1.4617673442309536
+  },
+  {
+    "user_id": "user_023",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.5018799244555203
+  },
+  {
+    "user_id": "user_024",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.2410209932551017
+  },
+  {
+    "user_id": "user_025",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.00832592845232
+  },
+  {
+    "user_id": "user_026",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.1877007713794514
+  },
+  {
+    "user_id": "user_027",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 1.0969343565979113
+  },
+  {
+    "user_id": "user_028",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 0.8574862094225848
+  },
+  {
+    "user_id": "user_029",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.4841170633193341
+  },
+  {
+    "user_id": "user_030",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.7980541859679534
+  },
+  {
+    "user_id": "user_031",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 1.457104965835891
+  },
+  {
+    "user_id": "user_032",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 0.961173671932022
+  },
+  {
+    "user_id": "user_033",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.5088369927212544
+  },
+  {
+    "user_id": "user_034",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.4594289941832732
+  },
+  {
+    "user_id": "user_035",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.6447877221015954
+  },
+  {
+    "user_id": "user_036",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.9793409755182516
+  },
+  {
+    "user_id": "user_037",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.6603471262897831
+  },
+  {
+    "user_id": "user_038",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.2930743720153877
+  },
+  {
+    "user_id": "user_039",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.1816387575949014
+  },
+  {
+    "user_id": "user_040",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.5447894619821488
+  },
+  {
+    "user_id": "user_041",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.2378864618853598
+  },
+  {
+    "user_id": "user_042",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.0688650081457154
+  },
+  {
+    "user_id": "user_043",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 0.6571734268279907
+  },
+  {
+    "user_id": "user_044",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.1030535977170755
+  },
+  {
+    "user_id": "user_045",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 1.2979479222261414
+  },
+  {
+    "user_id": "user_046",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.8268389840367658
+  },
+  {
+    "user_id": "user_047",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.5671315004338243
+  },
+  {
+    "user_id": "user_048",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.350906333041752
+  },
+  {
+    "user_id": "user_049",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.2767594686368346
+  },
+  {
+    "user_id": "user_050",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.2596138483548602
+  },
+  {
+    "user_id": "user_051",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.8768826470238851
+  },
+  {
+    "user_id": "user_052",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.0328360225207605
+  },
+  {
+    "user_id": "user_053",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.5504343705871725
+  },
+  {
+    "user_id": "user_054",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.1464755602308672
+  },
+  {
+    "user_id": "user_055",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.6285735558618007
+  },
+  {
+    "user_id": "user_056",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.1339931721377954
+  },
+  {
+    "user_id": "user_057",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.7086260949794199
+  },
+  {
+    "user_id": "user_058",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.2341087709451175
+  },
+  {
+    "user_id": "user_059",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.4354120916923463
+  },
+  {
+    "user_id": "user_060",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.2983616633297457
+  },
+  {
+    "user_id": "user_061",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.6234663523468268
+  },
+  {
+    "user_id": "user_062",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.6212320645961544
+  },
+  {
+    "user_id": "user_063",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 1.3059518073649445
+  },
+  {
+    "user_id": "user_064",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.654994000682109
+  },
+  {
+    "user_id": "user_065",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.6468157516650821
+  },
+  {
+    "user_id": "user_066",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.401818091843978
+  },
+  {
+    "user_id": "user_067",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.3367710854933366
+  },
+  {
+    "user_id": "user_068",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.927601071919655
+  },
+  {
+    "user_id": "user_069",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 0.6510493590637649
+  },
+  {
+    "user_id": "user_070",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.0585343608376359
+  },
+  {
+    "user_id": "user_071",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.3435371178352118
+  },
+  {
+    "user_id": "user_072",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.0991870339875995
+  },
+  {
+    "user_id": "user_073",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.5569057644631623
+  },
+  {
+    "user_id": "user_074",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.4248535902022388
+  },
+  {
+    "user_id": "user_075",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.2983020231244637
+  },
+  {
+    "user_id": "user_076",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.5641957322444705
+  },
+  {
+    "user_id": "user_077",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.7761382908955663
+  },
+  {
+    "user_id": "user_078",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.1812994091383204
+  },
+  {
+    "user_id": "user_079",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.9502761190254096
+  },
+  {
+    "user_id": "user_080",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.5549842898519701
+  },
+  {
+    "user_id": "user_081",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.7613746220771518
+  },
+  {
+    "user_id": "user_082",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.2005646154706104
+  },
+  {
+    "user_id": "user_083",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.685870839803672
+  },
+  {
+    "user_id": "user_084",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.0820834512769522
+  },
+  {
+    "user_id": "user_085",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.2189734682002764
+  },
+  {
+    "user_id": "user_086",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.6303145723959738
+  },
+  {
+    "user_id": "user_087",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.7295146955146701
+  },
+  {
+    "user_id": "user_088",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.664284465879999
+  },
+  {
+    "user_id": "user_089",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.2181278531179534
+  },
+  {
+    "user_id": "user_090",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.9516947750356607
+  },
+  {
+    "user_id": "user_091",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.0464619650521474
+  },
+  {
+    "user_id": "user_092",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.3469951041691814
+  },
+  {
+    "user_id": "user_093",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.6926690049005088
+  },
+  {
+    "user_id": "user_094",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.5899091358568723
+  },
+  {
+    "user_id": "user_095",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.3460656392887027
+  },
+  {
+    "user_id": "user_096",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.2488572638042208
+  },
+  {
+    "user_id": "user_097",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.3234911761508346
+  },
+  {
+    "user_id": "user_098",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 1.3264695254636423
+  },
+  {
+    "user_id": "user_099",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.5149279570283298
+  },
+  {
+    "user_id": "user_100",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.6104637063903362
+  },
+  {
+    "user_id": "user_101",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.7764363001127741
+  },
+  {
+    "user_id": "user_102",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.6174037513689135
+  },
+  {
+    "user_id": "user_103",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.3863942053378988
+  },
+  {
+    "user_id": "user_104",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.197554603286071
+  },
+  {
+    "user_id": "user_105",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.497995996897365
+  },
+  {
+    "user_id": "user_106",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 0.663563503121243
+  },
+  {
+    "user_id": "user_107",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.1927252759003726
+  },
+  {
+    "user_id": "user_108",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.9356622862878707
+  },
+  {
+    "user_id": "user_109",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.8444724046381564
+  },
+  {
+    "user_id": "user_110",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.4844577403596089
+  },
+  {
+    "user_id": "user_111",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 1.247159250864752
+  },
+  {
+    "user_id": "user_112",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.2672280407242185
+  },
+  {
+    "user_id": "user_113",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.5324181384955594
+  },
+  {
+    "user_id": "user_114",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.9436946895397648
+  },
+  {
+    "user_id": "user_115",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.4242594782647686
+  },
+  {
+    "user_id": "user_116",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.8023688598551458
+  },
+  {
+    "user_id": "user_117",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.9492504580778933
+  },
+  {
+    "user_id": "user_118",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.6996753922870071
+  },
+  {
+    "user_id": "user_119",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.4914488938990327
+  },
+  {
+    "user_id": "user_120",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.0644835386196876
+  },
+  {
+    "user_id": "user_121",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.9083602997121308
+  },
+  {
+    "user_id": "user_122",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.8775738630465425
+  },
+  {
+    "user_id": "user_123",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.5682120505666564
+  },
+  {
+    "user_id": "user_124",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.8256832749706092
+  },
+  {
+    "user_id": "user_125",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.1271303863420514
+  },
+  {
+    "user_id": "user_126",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.8751663007403595
+  },
+  {
+    "user_id": "user_127",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.1396090924498172
+  },
+  {
+    "user_id": "user_128",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.958405042954808
+  },
+  {
+    "user_id": "user_129",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.8472189603832588
+  },
+  {
+    "user_id": "user_130",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.2807459380459383
+  },
+  {
+    "user_id": "user_131",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.7069624101278164
+  },
+  {
+    "user_id": "user_132",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.0496431644638688
+  },
+  {
+    "user_id": "user_133",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.7999069488358437
+  },
+  {
+    "user_id": "user_134",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.4098961794646248
+  },
+  {
+    "user_id": "user_135",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.7478164371681074
+  },
+  {
+    "user_id": "user_136",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.0071546865666892
+  },
+  {
+    "user_id": "user_137",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.2455788733533633
+  },
+  {
+    "user_id": "user_138",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.5125446433504292
+  },
+  {
+    "user_id": "user_139",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.9845280104105838
+  },
+  {
+    "user_id": "user_140",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.8110407683208443
+  },
+  {
+    "user_id": "user_141",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.9714885015977119
+  },
+  {
+    "user_id": "user_142",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.9966335797405154
+  },
+  {
+    "user_id": "user_143",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.7545488228814746
+  },
+  {
+    "user_id": "user_144",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.511371637997925
+  },
+  {
+    "user_id": "user_145",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.6949480435186649
+  },
+  {
+    "user_id": "user_146",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.4660863686215655
+  },
+  {
+    "user_id": "user_147",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.0172842246819065
+  },
+  {
+    "user_id": "user_148",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.7346708130710333
+  },
+  {
+    "user_id": "user_149",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.6263582768638875
+  },
+  {
+    "user_id": "user_150",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 0.7783536386487019
+  },
+  {
+    "user_id": "user_151",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.2168562005266788
+  },
+  {
+    "user_id": "user_152",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.3417374986711015
+  },
+  {
+    "user_id": "user_153",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 1.3762325286982058
+  },
+  {
+    "user_id": "user_154",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.0504529475626438
+  },
+  {
+    "user_id": "user_155",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 1.4095500263644392
+  },
+  {
+    "user_id": "user_156",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 0.7827070951478591
+  },
+  {
+    "user_id": "user_157",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.4929830415763652
+  },
+  {
+    "user_id": "user_158",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.7356757980208833
+  },
+  {
+    "user_id": "user_159",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.6974179208069107
+  },
+  {
+    "user_id": "user_160",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.209073957886125
+  },
+  {
+    "user_id": "user_161",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 0.839058439295708
+  },
+  {
+    "user_id": "user_162",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.1753966577838855
+  },
+  {
+    "user_id": "user_163",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.9344202851505558
+  },
+  {
+    "user_id": "user_164",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.7169999304427519
+  },
+  {
+    "user_id": "user_165",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 1.1199897552082883
+  },
+  {
+    "user_id": "user_166",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.8283521910456064
+  },
+  {
+    "user_id": "user_167",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 1.4262255158414092
+  },
+  {
+    "user_id": "user_168",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 1.2932217644010526
+  },
+  {
+    "user_id": "user_169",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 1.1107168159779888
+  },
+  {
+    "user_id": "user_170",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 0.9479651455318766
+  },
+  {
+    "user_id": "user_171",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.0460036069209644
+  },
+  {
+    "user_id": "user_172",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 0.9531209115951963
+  },
+  {
+    "user_id": "user_173",
+    "profile_type": "Rock Enthusiast",
+    "preferred_genres": [
+      "rock",
+      "permanent wave",
+      "celtic rock"
+    ],
+    "feature_weights": {
+      "Energy": 1.1,
+      "Acousticness": 0.7
+    },
+    "activity_level": 1.1455909772092703
+  },
+  {
+    "user_id": "user_174",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.7385257708011027
+  },
+  {
+    "user_id": "user_175",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.1764577761595867
+  },
+  {
+    "user_id": "user_176",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.3594162219304924
+  },
+  {
+    "user_id": "user_177",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.2297427971759436
+  },
+  {
+    "user_id": "user_178",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.8858800276101101
+  },
+  {
+    "user_id": "user_179",
+    "profile_type": "New Music",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "year": 1.2
+    },
+    "activity_level": 0.9181912746593206
+  },
+  {
+    "user_id": "user_180",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 1.346020175163087
+  },
+  {
+    "user_id": "user_181",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.7460934688552874
+  },
+  {
+    "user_id": "user_182",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.034517392203029
+  },
+  {
+    "user_id": "user_183",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.402633265770917
+  },
+  {
+    "user_id": "user_184",
+    "profile_type": "Pop Culture",
+    "preferred_genres": [
+      "pop",
+      "canadian pop",
+      "australian pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.3
+    },
+    "activity_level": 0.8240136155071928
+  },
+  {
+    "user_id": "user_185",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.5362913550175088
+  },
+  {
+    "user_id": "user_186",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.1149759728904831
+  },
+  {
+    "user_id": "user_187",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 0.6912657223968081
+  },
+  {
+    "user_id": "user_188",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 0.871706001904308
+  },
+  {
+    "user_id": "user_189",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.9548061173729248
+  },
+  {
+    "user_id": "user_190",
+    "profile_type": "Pop Lover",
+    "preferred_genres": [
+      "pop",
+      "dance pop"
+    ],
+    "feature_weights": {
+      "Popularity": 1.0,
+      "Danceability": 0.8
+    },
+    "activity_level": 0.9214015245295352
+  },
+  {
+    "user_id": "user_191",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.4550886547780346
+  },
+  {
+    "user_id": "user_192",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.137689050030927
+  },
+  {
+    "user_id": "user_193",
+    "profile_type": "All Music",
+    "preferred_genres": [],
+    "feature_weights": {
+      "Popularity": 0.8
+    },
+    "activity_level": 1.2290902097369258
+  },
+  {
+    "user_id": "user_194",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.0139331353113286
+  },
+  {
+    "user_id": "user_195",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.2084919093015252
+  },
+  {
+    "user_id": "user_196",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 1.3532421585704681
+  },
+  {
+    "user_id": "user_197",
+    "profile_type": "Hip Hop Fan",
+    "preferred_genres": [
+      "hip hop",
+      "detroit hip hop",
+      "atl hip hop"
+    ],
+    "feature_weights": {
+      "Energy": 0.9,
+      "Speechiness": 1.2
+    },
+    "activity_level": 1.2843641695150243
+  },
+  {
+    "user_id": "user_198",
+    "profile_type": "Indie Fan",
+    "preferred_genres": [
+      "indie pop",
+      "alternative",
+      "art pop"
+    ],
+    "feature_weights": {
+      "Popularity": -0.5,
+      "Acousticness": 1.2
+    },
+    "activity_level": 1.193563687200005
+  },
+  {
+    "user_id": "user_199",
+    "profile_type": "Dance Music",
+    "preferred_genres": [
+      "dance pop",
+      "electronic",
+      "edm"
+    ],
+    "feature_weights": {
+      "Danceability": 1.5,
+      "Energy": 1.2
+    },
+    "activity_level": 0.7773161417848713
+  },
+  {
+    "user_id": "user_200",
+    "profile_type": "R&B Lover",
+    "preferred_genres": [
+      "r&b",
+      "contemporary r&b",
+      "canadian contemporary r&b"
+    ],
+    "feature_weights": {
+      "Valence": 1.0,
+      "Speechiness": 0.8
+    },
+    "activity_level": 1.1723287949705319
+  }
+]

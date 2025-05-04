@@ -11,28 +11,34 @@
     <label for="user_id" class="form-label">User ID</label>
     <input type="text" class="form-control" id="user_id" name="user_id" value="{{ user_id }}">
   </div>
-  <div class="mb-3">
-    <label for="content_weight" class="form-label">Peso Conteúdo</label>
-    <input type="number" step="0.1" class="form-control" id="content_weight" name="content_weight" value="{{ content_weight }}">
-  </div>
-  <div class="mb-3">
-    <label for="collab_weight" class="form-label">Peso Colaborativo</label>
-    <input type="number" step="0.1" class="form-control" id="collab_weight" name="collab_weight" value="{{ collab_weight }}">
-  </div>
-  <div class="mb-3">
-    <label for="limit" class="form-label">Limite</label>
-    <input type="number" class="form-control" id="limit" name="limit" value="{{ limit }}">
-  </div>
+  <!-- Pesos e limite configurados automaticamente no backend -->
+  <input type="hidden" name="content_weight" value="0.7">
+  <input type="hidden" name="collab_weight" value="0.3">
+  <input type="hidden" name="limit" value="5">
   <button type="submit" class="btn btn-primary">Buscar</button>
 </form>
 {% if recs %}
 <table class="table mt-4">
-  <thead><tr>
-    {% for key in recs[0].keys() %}<th>{{ key }}</th>{% endfor %}
-  </tr></thead>
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th>Artista</th>
+      <th>Gênero</th>
+      <th>Pontuação Final</th>
+      <th>Contribuição Conteúdo</th>
+      <th>Contribuição Colaborativa</th>
+    </tr>
+  </thead>
   <tbody>
   {% for r in recs %}
-    <tr>{% for v in r.values() %}<td>{{ v }}</td>{% endfor %}</tr>
+    <tr>
+      <td>{{ r.title }}</td>
+      <td>{{ r.artist }}</td>
+      <td>{{ r.genre }}</td>
+      <td><strong>{{ r.score|round(4) }}</strong></td>
+      <td>{{ r.content_score|round(4) }} <small class="text-muted">({{ (r.content_score/r.score*100)|round(0) if r.score > 0 else 0 }}%)</small></td>
+      <td>{{ r.collab_score|round(4) }} <small class="text-muted">({{ (r.collab_score/r.score*100)|round(0) if r.score > 0 else 0 }}%)</small></td>
+    </tr>
   {% endfor %}
   </tbody>
 </table>
